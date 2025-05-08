@@ -1,0 +1,50 @@
+### Algorithm Comparison Results (AG-GA vs GA vs PSO)
+
+Date: [Insert Date of Experiment]
+
+---
+
+#### 1. **AG-GA (Adaptive Grouping Genetic Algorithm)**
+- **Best Configuration:** [128, 0.001, 'adam', 'relu']
+- **Best Score:** 0.9767
+- **Convergence:** 
+  - Generation 1: 0.9729999899864197
+  - Generation 2: 0.9735714197158813
+  - Generation 3: 0.9767143130302429
+  - Generation 4: 0.9767143130302429
+  - Generation 5: 0.9767143130302429
+- **Time Taken (seconds):** 316.94
+
+---
+
+#### 2. **GA (Genetic Algorithm)**
+- **Best Configuration:** [128, 0.001, 'rmsprop', 'relu']
+- **Best Score:** 0.9768
+- **Convergence:** 
+  - Generation 1: 0.9727857112884521
+  - Generation 2: 0.9750714302062988
+  - Generation 3: 0.9767857193946838
+  - Generation 4: 0.9767857193946838
+  - Generation 5: 0.9767857193946838
+- **Time Taken (seconds):** 319.37
+
+---
+
+#### 3. **PSO (Particle Swarm Optimization)**
+- **Best Configuration:** [128, 0.001, 'rmsprop', 'relu']
+- **Best Score:** 0.9744
+- **Convergence:** 
+  - Generation 1: 0.9729999899864197
+  - Generation 2: 0.9729999899864197
+  - Generation 3: 0.9744285941123962
+  - Generation 4: 0.9744285941123962
+  - Generation 5: 0.9744285941123962
+- **Time Taken (seconds):** 217.71
+
+---
+
+#### Observations:
+- **AG-GA** showed a competitive performance but was slightly outperformed by **GA**.
+- **PSO** performed worse in terms of score but was faster in computation.
+
+---
