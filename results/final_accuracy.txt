@@ -1,0 +1,3 @@
+AG-GA Best Accuracy: 0.9767
+GA Best Accuracy: 0.9768
+PSO Best Accuracy: 0.9744
