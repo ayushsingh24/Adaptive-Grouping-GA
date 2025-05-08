@@ -13,7 +13,7 @@ This repository contains the implementation of the **Adaptive Grouping-Based Gen
 3. **PSO** (Particle Swarm Optimization)
 
 ## Results
-The algorithms are compared using the **MNIST** dataset for neural network hyperparameter tuning. Results are stored in `results/` and include accuracy and logs.
+The algorithms are compared using the **MNIST** dataset for neural network hyperparameter tuning. Results are stored in `results/` and include accuracy.
 
 ## Setup Instructions
 
