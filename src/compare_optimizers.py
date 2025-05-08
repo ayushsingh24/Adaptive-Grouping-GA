@@ -216,3 +216,21 @@ from pprint import pprint
 pprint(ag_ga_result)
 pprint(ga_result)
 pprint(pso_result)
+
+
+import matplotlib.pyplot as plt
+
+# Sample data (replace with your actual results)
+ag_ga_convergence = [0.972, 0.973, 0.976]
+ga_convergence = [0.972, 0.975, 0.976]
+pso_convergence = [0.972, 0.973, 0.974]
+
+plt.plot(ag_ga_convergence, label="AG-GA")
+plt.plot(ga_convergence, label="GA")
+plt.plot(pso_convergence, label="PSO")
+plt.xlabel("Generations")
+plt.ylabel("Accuracy")
+plt.legend()
+plt.title("Performance Comparison: AG-GA vs GA vs PSO")
+plt.savefig(r'results/agga_vs_ga_vs_pso.png')
+plt.show()
